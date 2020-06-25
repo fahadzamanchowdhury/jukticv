@@ -8,6 +8,9 @@
 .mg-tp-10{
     margin-top: 10px;
 }
+.mg-bt-20{
+    margin-bottom: 20px;
+}
 .pd-tp-10{
     padding-top: 10px;
 }
@@ -32,6 +35,9 @@
 .txtleft{
     text-align: left;
 }
+.txtcenter{
+    text-align: center;
+}
 .gr-white{
 background: linear-gradient(to right, #DDEFBB, #FFEEEE); 
 }
@@ -40,6 +46,9 @@ background: linear-gradient(to right, #DDEFBB, #FFEEEE);
 }
 .bg-grey{
     background-color: #ced6e0;
+}
+hr{
+    background-color: grey;
 }
 .button{
     padding: 2px 4px;
@@ -63,8 +72,75 @@ border: #70a1ff 5px solid;
 border-radius: 100%;
 }
 .bottom-block{
-    text-align: center;
     height: auto;
     width: 90vw;
     border-bottom: lightslategray solid 3px ;
+}
+.bottom-block__skillset{
+    margin: 20px 0;
+    list-style: none;
+}
+.bottom-black__skillset li{
+    margin: 20px 0;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+.html{
+    width:90%;
+    animation: html 2s;
+}
+.css{
+    width:70%;
+    animation: css 2s;
+}
+.jquery{
+    width:85%;
+    animation: jquery 2s;
+}
+.javascript{
+    width: 74%;
+    animation: javascript 2s;
+
+}
+@keyframes html{
+    0%{
+        width:0%
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width:0%
+    }
+    100%{
+        width: 70%;
+    }
+}@keyframes jquery{
+    0%{
+        width:0%
+    }
+    100%{
+        width: 85%;
+    }
+}@keyframes javascript{
+    0%{
+        width:0%
+    }
+    100%{
+        width: 74%;
+    }
 }
