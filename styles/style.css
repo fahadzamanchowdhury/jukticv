@@ -129,18 +129,23 @@ border-radius: 100%;
     100%{
         width: 70%;
     }
-}@keyframes jquery{
+}
+@keyframes jquery{
     0%{
         width:0%
     }
     100%{
         width: 85%;
     }
-}@keyframes javascript{
+}
+@keyframes javascript{
     0%{
         width:0%
     }
     100%{
         width: 74%;
     }
+}
+@media screen and (min-width:480px) {
+    
 }
