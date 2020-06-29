@@ -149,10 +149,10 @@ border-radius: 100%;
         width: 74%;
     }
 }
-@media screen and (min-width:480px) {
+@media screen and (min-width:600px) {
 .top-block{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 40% 60%;
     grid-column-gap: auto;
     justify-items: center;
 }
@@ -160,10 +160,17 @@ border-radius: 100%;
     align-self: center;
 }    
 .top-block__avatar img{
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 .top-block .top-block__info{
     width: 70%;
+}
+}
+@media screen and (min-width:720px){
+.bottom-block{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-gap: 2em;
 }
 }
