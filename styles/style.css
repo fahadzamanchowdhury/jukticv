@@ -102,19 +102,19 @@ border-radius: 100%;
 }
 .html{
     width:90%;
-    animation: html 2s;
+    animation: html 3s;
 }
 .css{
     width:70%;
-    animation: css 2s;
+    animation: css 3s;
 }
 .jquery{
     width:85%;
-    animation: jquery 2s;
+    animation: jquery 3s;
 }
 .javascript{
     width: 74%;
-    animation: javascript 2s;
+    animation: javascript 3s;
 
 }
 @keyframes html{
@@ -168,9 +168,18 @@ border-radius: 100%;
 }
 }
 @media screen and (min-width:720px){
+.txtsize{
+    font-size: 14px;
+}
+.bottom-block__skillset a{
+    margin-left: 10px;
+}
 .bottom-block{
     display: grid;
-    grid-template-columns: 35% 65%;
-    grid-gap: 2em;
+    grid-template-columns: .3fr .7fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
 }
+.bottom-block .bottom-block__skillset{
+  
 }
