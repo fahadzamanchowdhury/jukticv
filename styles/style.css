@@ -158,7 +158,8 @@ border: #70a1ff 5px solid;
     }
 }
 .socials{
-    width: 90vw;
+    width: 50vw;
+    padding-left: 40vw;
     justify-items: center;
 }
 @media screen and (min-width:600px) {
