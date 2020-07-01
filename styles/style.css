@@ -1,5 +1,5 @@
 body {
-    background-color: linear-gradient(to right, #CFDEF3, #E0EAFC);
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC);
     margin: 0;
     padding: 0;
   }
@@ -36,7 +36,7 @@ body {
     margin-left: 5vw;
   }
   
-  .txt-blue, .bg-blue {
+  .txt-blue {
     color: #70a1ff;
   }
   
@@ -60,12 +60,20 @@ body {
     text-align: center;
   }
   
-  .gr-white {
-    background-color: linear-gradient(to right, #DDEFBB, #FFEEEE);
+  .bg-blue {
+    background-color: #70a1ff;
   }
   
-  .bg-grey, hr {
-    color: #ced6e0;
+  .gr-white {
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE);
+  }
+  
+  .bg-grey {
+    background-color: #ced6e0;
+  }
+  
+  hr {
+    color: #778899;
   }
   
   .button {
@@ -78,9 +86,9 @@ body {
   .top-block, .bottom-block {
     height: auto;
     width: 90vw;
-    border-bottom: #778899 solid 3px;
+    border-bottom: #ced6e0 solid 3px;
   }
-  .top-block __avatar, .bottom-block __avatar {
+  .top-block__avatar {
     background-image: url(../assets/mypic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -175,7 +183,7 @@ body {
   }
   
   @media screen and (min-width: 600px) {
-    .top-block{
+    .top-block, .bottom-block {
       display: grid;
       grid-template-columns: 40% 60%;
       grid-column-gap: auto;
